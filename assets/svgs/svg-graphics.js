@@ -1,12 +1,16 @@
 import React from 'react';
-import Svg, { Path, G, Defs, ClipPath } from "react-native-svg"
+import Svg, { Path, G, Defs, ClipPath } from "react-native-svg";
+import { Dimensions } from 'react-native';
+
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
 
 
 
 export const CreateAccountGraphics = (props) => (
   <Svg
-  width={360}
-  height={245}
+  width={windowWidth*1}
+  height={windowHeight*0.3828125}
   viewBox="0 0 360 245"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +32,8 @@ export const CreateAccountGraphics = (props) => (
 
 export const SignInGraphics = (props) => (
     <Svg
-      width={360}
-      height={514}
+      width={windowWidth*1}
+      height={windowHeight*0.8}
       viewBox="0 0 360 514"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -221,8 +225,8 @@ export const SignInGraphics = (props) => (
 
 export const ForgetPasswordGraphics = (props) => (
   <Svg
-      width={360}
-      height={468}
+      width={windowWidth*1}
+      height={windowHeight*0.73125}
       viewBox="0 0 360 468"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -331,8 +335,8 @@ export const ForgetPasswordGraphics = (props) => (
 
 export const ResetPasswordGraphics = (props) => (
   <Svg
-  width={360}
-  height={510}
+  width={windowWidth*1}
+  height={windowHeight*0.796875}
   viewBox="0 0 360 510"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"

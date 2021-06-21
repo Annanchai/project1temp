@@ -32,7 +32,7 @@ export default function App() {
 
               {/* <ForgotPasswordScreen /> */}
 
-              <ResetPasswordScreen />
+              <SplashScreen />
 {/* 
               <AuthScreen 
                 key='CreateAccountScreen'
