@@ -9,6 +9,7 @@ import SignInScreen from './screens/sign-in';
 import ForgotPasswordScreen from './screens/forgot-password';
 import ResetPasswordScreen from './screens/reset-password';
 import AuthScreen from './screens/auth-screen';
+import GenderScreen from './screens/gender-screen';
 import { CreateAccountGraphics, ForgetPasswordGraphics } from './assets/svgs/svg-graphics';
 
 const getFonts = () => Font.loadAsync({
@@ -32,7 +33,7 @@ export default function App() {
 
               {/* <ForgotPasswordScreen /> */}
 
-              <SplashScreen />
+              <GenderScreen />
 {/* 
               <AuthScreen 
                 key='CreateAccountScreen'
